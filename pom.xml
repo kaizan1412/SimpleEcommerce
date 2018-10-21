@@ -20,7 +20,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   	<jackson.mapper.version>1.9.10</jackson.mapper.version>
   	<httpclient.version>3.1</httpclient.version>
   	<javax.servlet.version>3.0.1</javax.servlet.version>
-  	<jackson.databind.version>2.4.1.1</jackson.databind.version>
+  	<jackson.databind.version>2.8.11.1</jackson.databind.version>
   	<jstl.version>1.2</jstl.version>
   </properties>
   
