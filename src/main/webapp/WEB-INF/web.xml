@@ -9,7 +9,9 @@ version="2.5">
   
   <context-param>
   	<param-name>contextConfigLocation</param-name>
-  	<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+  	<param-value>
+  		/WEB-INF/dispatcher-servlet.xml
+  	</param-value>
   </context-param>
   
   <listener>
@@ -36,11 +38,6 @@ version="2.5">
   </session-config>
   
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>redirect.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
